@@ -1,8 +1,16 @@
+////////////////////////////////////////////////////////////////////
+// SOFIA MOLINA AMORES 2133323
+// MARTA TOMAS ROMERA 2132924
+////////////////////////////////////////////////////////////////////
+
 package it.unipd.mtss;
 
 public class RomanPrinter {
   public static String print(int num){
-	return printAsciiArt(IntegerToRoman.convert(num));
+    if (num <= 0){
+      throw new IllegalArgumentException("El número debe ser positivo.");
+    }
+	  return printAsciiArt(IntegerToRoman.convert(num));
   }
 
 private static final Map<Character, String[]> asciiMap = new HashMap<>();
