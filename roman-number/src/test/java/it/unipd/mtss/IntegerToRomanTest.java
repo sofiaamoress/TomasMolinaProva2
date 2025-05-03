@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-@RunWith(Parametrized.class)
 public class IntegerToRomanTest {
 
     //Boundary test
@@ -41,7 +40,7 @@ public class IntegerToRomanTest {
     }
 
     //test mila (numero speciale e upper boundary)
-    //cosÏ testamo anche la funzione privata "thousands"
+    //cos√¨ testamo anche la funzione privata "thousands"
     @Test
     public void testThousand() {
         assertEquals("M", IntegerToRoman.convert(1000));
@@ -63,7 +62,7 @@ public class IntegerToRomanTest {
         assertEquals(expetedOutput,output);
     }
 
-    //test numeri complessit‡ 1
+    //test numeri complessit√† 1
     @Test
     public void testNumbersComplex1() {
         String expectedOutput[] = {"IV","IX","XL","XC","CD","CM"};
@@ -78,7 +77,7 @@ public class IntegerToRomanTest {
         assertEquals(expetedOutput,output);
     }
 
-     //test numeri complessit‡ 2 (numeri estremi)
+     //test numeri complessit√† 2 (numeri estremi)
     @Test
     public void testNumbersComplex2() {
         String expectedOutput[] = {"XLIX","XCIV","CDXLIV","DCCCXCIX","CMXCIX"};
