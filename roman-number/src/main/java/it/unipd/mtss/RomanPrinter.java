@@ -89,5 +89,4 @@ private static final Map<Character, String[]> asciiMap = new HashMap<>();
 
         return result.toString();
   }
-
 }
