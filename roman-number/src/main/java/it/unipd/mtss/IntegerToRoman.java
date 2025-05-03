@@ -3,6 +3,10 @@ package it.unipd.mtss;
 public class IntegerToRoman {
 
   public static String convert(int number){
+	//errori
+	if (number > 1000 || number < 0){
+		throw new IllegalArgumentException("Number not in range. Admitted range: [0,1000]")
+	}
 
 	int unit = number % 10;
 	int dec = (number/10) % 10;
@@ -13,6 +17,10 @@ public class IntegerToRoman {
   }
 
   private static String units(int number){
+	  if (number > 9 || number < 0){
+		throw new IllegalArgumentException("Number not in range. Admitted range: [0,9]")
+	  }
+
 	  switch (number){
 		  case 0:
 			return "";
@@ -42,6 +50,10 @@ public class IntegerToRoman {
   }
 
   private static String tens(int number){
+	  if (number > 9 || number < 0){
+		throw new IllegalArgumentException("Number not in range. Admitted range: [0,9]")
+	  }
+
 	  switch (number){
 		  case 0:
 			return "";
@@ -69,6 +81,10 @@ public class IntegerToRoman {
   }
 
   private static String hundreds(int number){
+	  if (number > 9 || number < 0){
+		throw new IllegalArgumentException("Number not in range. Admitted range: [0,9]")
+	  }
+
 	  switch (number){
 		  case 0:
 			return "";
@@ -96,6 +112,10 @@ public class IntegerToRoman {
   }
 
   private static String thousands(int number){
+	  if (number > 1 || number < 0){
+		throw new IllegalArgumentException("Number not in range. Admitted range: [0,1]")
+	  }
+
 	  if (number == 1){
 		  return "M";
 	  }
