@@ -5,6 +5,9 @@
 
 package it.unipd.mtss;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RomanPrinter {
   public static String print(int num){
     if (num <= 0){
