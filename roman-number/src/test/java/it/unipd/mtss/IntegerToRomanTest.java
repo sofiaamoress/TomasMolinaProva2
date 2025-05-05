@@ -27,8 +27,7 @@ public class IntegerToRomanTest {
     //NullPointer
     @Test(expected=NullPointerException.class)
     public void testNullArgument() {
-        int num = null;
-        IntegerToRoman.convert(num);
+        IntegerToRoman.convert(null);
     }
 
     //TEST DI OUTPUT
@@ -58,7 +57,7 @@ public class IntegerToRomanTest {
             IntegerToRoman.convert(100),
             IntegerToRoman.convert(500)
         };
-        assertEquals(expetedOutput,output);
+        assertEquals(expectedOutput,output);
     }
 
     //test numeri complessità 1
@@ -73,7 +72,7 @@ public class IntegerToRomanTest {
             IntegerToRoman.convert(400),
             IntegerToRoman.convert(900),
         };
-        assertEquals(expetedOutput,output);
+        assertEquals(expectedOutput,output);
     }
 
      //test numeri complessità 2 (numeri estremi)
@@ -87,7 +86,7 @@ public class IntegerToRomanTest {
             IntegerToRoman.convert(899),
             IntegerToRoman.convert(999),
         };
-        assertEquals(expetedOutput,output);
+        assertEquals(expectedOutput,output);
     }
 
     //test numeri random
@@ -102,6 +101,6 @@ public class IntegerToRomanTest {
             IntegerToRoman.convert(689),
             IntegerToRoman.convert(822),
         };
-        assertEquals(expetedOutput,output);
+        assertEquals(expectedOutput,output);
     }
 }
