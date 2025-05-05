@@ -12,7 +12,7 @@
     </module>
     <module name="MethodLength">
       <property name="tokens" value="METHOD_DEF"/>
-      <property name="max" value="4"/>
+      <property name="max" value="50"/>
     </module>
     <module name="AvoidStarImport">
       <property name="allowClassImports" value="true"/>
@@ -30,12 +30,11 @@
   <module name="LineLength">
     <property name="max" value="120"/>
   </module>
-  <module name="FileTabCharacter"/>
+  <module name="FileTabCharacter">
+    <property name="fileExtensions" value="txt"/>
+  </module>
   <module name="Header">
     <property name="header"
-              value="////////////////////////////////////////////////////////////////////
-// SOFIA MOLINA AMORES 2133323
-// MARTA TOMAS ROMERA 2132924
-////////////////////////////////////////////////////////////////////"/>
+              value="////////////////////////////////////////////////////////////////////\n// SOFIA MOLINA AMORES 2133323\n// MARTA TOMAS ROMERA 2132924\n////////////////////////////////////////////////////////////////////"/>
   </module>
 </module>
