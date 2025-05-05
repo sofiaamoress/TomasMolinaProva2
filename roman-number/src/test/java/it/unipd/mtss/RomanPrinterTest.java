@@ -106,7 +106,7 @@ public class RomanPrinterTest {
 " \\ V /    | |          | |      \\ V /    ",
 "  > <     | |          | |       > <     ",
 " / · \\    | |_ _      _| |_     / · \\    ",
-"/_/ \\_\\   |______|   |_____|   /_/ \\_\\   "
+"/_/ \\_\\   |______|   |_____|   /_/ \\_\\ "
         };
     String letteraXLIV = convertToString(letXLIV);
     
