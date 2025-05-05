@@ -98,6 +98,6 @@ private static final Map<Character, String[]> asciiMap = new HashMap<>();
             result.append(line.toString()).append("\n");
         }
 
-        return result.toString()+"\n";
+        return result.toString();
   }
 }
