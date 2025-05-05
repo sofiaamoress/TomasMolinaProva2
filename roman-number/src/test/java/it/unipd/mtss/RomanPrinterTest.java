@@ -141,7 +141,7 @@ public class RomanPrinterTest {
     String letteraCCLIX = convertToString(letCCLIX);
     
     String[] letCDLXVIII = new String[]{
-                " _____     _____      _         __   __   __      __   _____     _____     _____ ",   
+                " _____     _____      _         __   __   __      __   _____     _____     _____  ",   
 "/  ___|   |  __ \\    | |        \\ \\ / /   \\ \\    / /  |_   _|   |_   _|   |_   _| ",
 "| |       | |  | |   | |         \\ V /     \\ \\  / /     | |       | |       | |   ",
 "| |       | |  | |   | |          > <       \\ \\/ /      | |       | |       | |   ",
@@ -151,7 +151,7 @@ public class RomanPrinterTest {
     String letteraCDLXVIII = convertToString(letCDLXVIII);
     
     String[] letDLXXXVII = new String[]{
-                " _____      _         __   __   __   __   __   __   __      __   _____     _____ ",   
+                " _____      _         __   __   __   __   __   __   __      __   _____     _____  ",   
 "|  __ \\    | |        \\ \\ / /   \\ \\ / /   \\ \\ / /   \\ \\    / /  |_   _|   |_   _| ",
 "| |  | |   | |         \\ V /     \\ V /     \\ V /     \\ \\  / /     | |       | |   ",
 "| |  | |   | |          > <       > <       > <       \\ \\/ /      | |       | |   ",
@@ -161,7 +161,7 @@ public class RomanPrinterTest {
     String letteraDLXXXVII = convertToString(letDLXXXVII);
     
     String[] letDCCXXXVI = new String[]{
-                " _____      _____     _____    __   __   __   __   __   __   __      __   _____ ",   
+                " _____      _____     _____    __   __   __   __   __   __   __      __   _____  ",   
 "|  __ \\    /  ___|   /  ___|   \\ \\ / /   \\ \\ / /   \\ \\ / /   \\ \\    / /  |_   _| ",
 "| |  | |   | |       | |        \\ V /     \\ V /     \\ V /     \\ \\  / /     | | ",  
 "| |  | |   | |       | |         > <       > <       > <       \\ \\/ /      | |   ",
