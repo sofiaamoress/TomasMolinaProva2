@@ -101,7 +101,7 @@ public class RomanPrinterTest {
     String letteraM = convertToString(letM);
     
     String[] letXLIV = new String[]{
-        		"__   __    _          _____    __   __",   
+        		"__   __    _          _____    __   __ ",   
 "\\ \\ / /   | |        |_   _|   \\ \\ / / ",
 " \\ V /    | |          | |      \\ V /  ",
 "  > <     | |          | |       > <   ",
@@ -132,11 +132,11 @@ public class RomanPrinterTest {
     
     String[] letCCLIX = new String[]{
                 " _____     _____     _          _____    __   __ ",  
-"/  ___|   /  ___|   | |        |_   _|   \\ \\ / /   ",
-"| |       | |       | |          | |      \\ V /    ",
-"| |       | |       | |          | |       > <     ",
-"| |___    | |___    | |_ _      _| |_     / · \\    ",
-"\\_____|   \\_____|   |______|   |_____|   /_/ \\_\\   "
+"/  ___|   /  ___|   | |        |_   _|   \\ \\ / / ",
+"| |       | |       | |          | |      \\ V /  ",
+"| |       | |       | |          | |       > <   ",
+"| |___    | |___    | |_ _      _| |_     / · \\  ",
+"\\_____|   \\_____|   |______|   |_____|   /_/ \\_\\ "
         };
     String letteraCCLIX = convertToString(letCCLIX);
     
