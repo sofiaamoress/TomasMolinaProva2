@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class RomanPrinterTest {
-    String letteraI = " _____  \n|_   _| \n  | |   \n  | |   \n _| |_  \n|_____| ";
+    String letteraI = " _____  \n|_   _| \n  | |   \n  | |   \n _| |_  \n|_____| \n";
     String letteraV = "__      __\n \\ \\    / /\n \\ \\  / / \n  \\ \\/ /  \n   \\  /   \n    \\/    ";
     String letteraX = "__   __\n\\ \\ / /\n \\ V /  \n  > <   \n / · \\  \n/_/ \\_\\";
     String letteraL = " _       \n| |      \n| |      \n| |      \n| |_ _   \n|______| ";
