@@ -9,18 +9,10 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class RomanPrinterTest {
-    String letteraI = new String{
-        		    " _____  \n |_   _| \n | |   \n | |   \n | |_  \n |_____| "
-        };
-    String letteraV = new String[]{
-                "__      __\n \\ \\    / /\n \\ \\  / / \n  \\ \\/ /  \n   \\  /   \n    \\/    "
-        };
-    String letteraX = new String[]{
-                "__   __\n\\ \\ / /\n \\ V /  \n  > <   \n / · \\  \n/_/ \\_\\"
-        };
-    String letteraL = new String[]{
-                " _       \n| |      \n| |      \n| |      \n| |_ _   \n|______| "
-        };
+    String letteraI = " _____  \n |_   _| \n | |   \n | |   \n | |_  \n |_____| ";
+    String letteraV = "__      __\n \\ \\    / /\n \\ \\  / / \n  \\ \\/ /  \n   \\  /   \n    \\/    ";
+    String letteraX = "__   __\n\\ \\ / /\n \\ V /  \n  > <   \n / · \\  \n/_/ \\_\\";
+    String letteraL = " _       \n| |      \n| |      \n| |      \n| |_ _   \n|______| ";
     String letteraC = new String[]{
                 " _____  ",
         		    "/  ___| ",
