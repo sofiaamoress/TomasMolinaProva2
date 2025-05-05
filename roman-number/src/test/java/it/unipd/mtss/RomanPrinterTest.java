@@ -121,7 +121,7 @@ public class RomanPrinterTest {
     String letteraXCIV = convertToString(letXCIV);
     
     String[] letCXXIII = new String[]{
-                " _____    __   __   __   __    _____     _____     _____",    
+                " _____    __   __   __   __    _____     _____     _____  ",    
 "/  ___|   \\ \\ / /   \\ \\ / /   |_   _|   |_   _|   |_   _| ",  
 "| |        \\ V /     \\ V /      | |       | |       | |   ",
 "| |         > <       > <       | |       | |       | |   ",
