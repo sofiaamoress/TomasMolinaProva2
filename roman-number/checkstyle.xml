@@ -16,6 +16,7 @@
     </module>
     <module name="AvoidStarImport">
       <property name="allowClassImports" value="true"/>
+      <property name="allowStaticMemberImports" value="true"/>
     </module>
     <module name="IllegalImport">
       <property name="illegalPkgs" value="java.io, java.sql"/>
