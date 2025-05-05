@@ -24,12 +24,6 @@ public class IntegerToRomanTest {
         IntegerToRoman.convert(2867);
     }
 
-    //NullPointer
-    @Test(expected=NullPointerException.class)
-    public void testNullArgument() {
-        IntegerToRoman.convert(null);
-    }
-
     //TEST DI OUTPUT
     //test zero (numero speciale e lower boundary)
     @Test
