@@ -18,24 +18,16 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
-  <dependencyManagement>
-    <dependencies>
+  <dependencies>
       <dependency>
-        <groupId>org.junit</groupId>
-        <artifactId>junit-bom</artifactId>
-        <version>5.11.0</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
-  <dependency>
 	<groupId>junit</groupId>
 	<artifactId>junit</artifactId>
 	<version>4.12</version>
 	<scope>test</scope>
-  </dependency>
+      </dependency>
+  </dependencies>
+
+  
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -81,7 +73,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    </pluginManagement>
   <plugins>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
@@ -105,7 +96,7 @@
 	<plugin>
 		  <groupId>org.jacoco</groupId>
 		  <artifactId>jacoco-maven-plugin</artifactId>
-		  <version>0.8.14-SNAPSHOT</version>
+		  <version>0.8.13</version>
 		  <executions>
 			  <execution>
 				  <id>default-prepare-agent</id>

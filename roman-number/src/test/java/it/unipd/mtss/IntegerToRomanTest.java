@@ -5,9 +5,8 @@
 
 package it.unipd.mtss;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class IntegerToRomanTest {
 
@@ -23,13 +22,6 @@ public class IntegerToRomanTest {
     @Test(expected=IllegalArgumentException.class)
     public void testExtremeBoundary() {
         IntegerToRoman.convert(2867);
-    }
-
-    //NullPointer
-    @Test(expected=NullPointerException.class)
-    public void testNullArgument() {
-        int num = null;
-        IntegerToRoman.convert(num);
     }
 
     //TEST DI OUTPUT
@@ -58,8 +50,8 @@ public class IntegerToRomanTest {
             IntegerToRoman.convert(50),
             IntegerToRoman.convert(100),
             IntegerToRoman.convert(500)
-        }
-        assertEquals(expetedOutput,output);
+        };
+        assertEquals(expectedOutput,output);
     }
 
     //test numeri complessità 1
@@ -73,8 +65,8 @@ public class IntegerToRomanTest {
             IntegerToRoman.convert(90),
             IntegerToRoman.convert(400),
             IntegerToRoman.convert(900),
-        }
-        assertEquals(expetedOutput,output);
+        };
+        assertEquals(expectedOutput,output);
     }
 
      //test numeri complessità 2 (numeri estremi)
@@ -87,8 +79,8 @@ public class IntegerToRomanTest {
             IntegerToRoman.convert(444),
             IntegerToRoman.convert(899),
             IntegerToRoman.convert(999),
-        }
-        assertEquals(expetedOutput,output);
+        };
+        assertEquals(expectedOutput,output);
     }
 
     //test numeri random
@@ -102,7 +94,7 @@ public class IntegerToRomanTest {
             IntegerToRoman.convert(501),
             IntegerToRoman.convert(689),
             IntegerToRoman.convert(822),
-        }
-        assertEquals(expetedOutput,output);
+        };
+        assertEquals(expectedOutput,output);
     }
 }

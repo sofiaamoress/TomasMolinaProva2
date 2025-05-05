@@ -5,6 +5,9 @@
 
 package it.unipd.mtss;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RomanPrinter {
   public static String print(int num){
     if (num <= 0){
@@ -75,7 +78,7 @@ private static final Map<Character, String[]> asciiMap = new HashMap<>();
         });
     }
 
-  private static String printAsciiArt(String romanNumber){
+  private static String printAsciiArt(String roman){
 	StringBuilder[] lines = new StringBuilder[LINE_COUNT];
         for (int i = 0; i < LINE_COUNT; i++) {
             lines[i] = new StringBuilder();
